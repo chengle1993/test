@@ -1,0 +1,38 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindICU.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CheckIncludeFiles/HAVE_STDARG_H.c
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CheckTypeSize/HAVE_SOCKLEN.c
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/cmake/CheckSchedGetCPU.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/cmake/FindResSearch.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/cmake/FindSnappy.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/cmake/MongoCPackage.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/CMakeLists.txt
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/build/cmake/libmongoc-1.0-config-version.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/build/cmake/libmongoc-1.0-config.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/build/cmake/libmongoc-static-1.0-config-version.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/build/cmake/libmongoc-static-1.0-config.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/src/libmongoc-1.0.pc.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/src/libmongoc-ssl-1.0.pc.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/src/libmongoc-static-1.0.pc.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/src/mongoc/mongoc-config.h.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/src/mongoc/mongoc-version.h.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/zlib-1.2.11/zconf.h.in

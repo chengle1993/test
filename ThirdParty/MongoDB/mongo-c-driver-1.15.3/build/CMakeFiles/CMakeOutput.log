@@ -1,0 +1,247 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2020/6/17 15:27:55。
+节点 1 上的项目“D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\3.17.1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\3.17.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx64\x86\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\3.17.1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.79
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/3.17.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a4970.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  testCCompiler.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4970.dir\Debug\\" /Fd"cmTC_a4970.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_a4970.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4970.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_410ba.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_410ba.dir\Debug\\" /Fd"cmTC_410ba.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  cmTC_410ba.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_410ba.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_408d2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_408d2.dir\Debug\\" /Fd"cmTC_408d2.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_408d2.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_408d2.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9f366.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f366.dir\Debug\\" /Fd"cmTC_9f366.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_9f366.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f366.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d72d4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d72d4.dir\Debug\\" /Fd"cmTC_d72d4.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_d72d4.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_d72d4.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cd30b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd30b.dir\Debug\\" /Fd"cmTC_cd30b.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  cmTC_cd30b.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd30b.exe
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9f411.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  TestEndianess.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f411.dir\Debug\\" /Fd"cmTC_9f411.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  cmTC_9f411.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f411.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b3724.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3724.dir\Debug\\" /Fd"cmTC_b3724.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_b3724.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_b3724.exe
+
+
+File D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test BSON_HAVE_TIMESPEC succeeded with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_42e38.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D BSON_HAVE_TIMESPEC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42e38.dir\Debug\\" /Fd"cmTC_42e38.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\src.c"
+  cmTC_42e38.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_42e38.exe
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct timespec *)0)->tv_sec);
+  return 0;
+}
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_24596.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_STDARG_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24596.dir\Debug\\" /Fd"cmTC_24596.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_STDARG_H.c"
+  cmTC_24596.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_24596.exe
+
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8d96d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  HAVE_SOCKLEN.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d96d.dir\Debug\\" /Fd"cmTC_8d96d.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckTypeSize\HAVE_SOCKLEN.c"
+  cmTC_8d96d.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CMakeTmp\Debug\cmTC_8d96d.exe
+
+
+

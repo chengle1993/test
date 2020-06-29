@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A9885F90-9CF0-30B9-A0E2-1DE0BF2EAE85}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>test_command_monitoring_specs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_command_monitoring_specs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_command_monitoring_specs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_command_monitoring_specs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_command_monitoring_specs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test_command_monitoring_specs.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test_command_monitoring_specs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test_command_monitoring_specs.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test_command_monitoring_specs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Debug\mongocxx-mocked.lib;D:\mongo-c-driver\lib\mongoc-1.0.lib;D:\mongo-c-driver\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;Dnsapi.lib;..\..\bsoncxx\Debug\bsoncxx-testing.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/Debug/test_command_monitoring_specs.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/Debug/test_command_monitoring_specs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Release\mongocxx-mocked.lib;D:\mongo-c-driver\lib\mongoc-1.0.lib;D:\mongo-c-driver\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;Dnsapi.lib;..\..\bsoncxx\Release\bsoncxx-testing.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/Release/test_command_monitoring_specs.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/Release/test_command_monitoring_specs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\mongocxx-mocked.lib;D:\mongo-c-driver\lib\mongoc-1.0.lib;D:\mongo-c-driver\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;Dnsapi.lib;..\..\bsoncxx\MinSizeRel\bsoncxx-testing.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/MinSizeRel/test_command_monitoring_specs.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/MinSizeRel/test_command_monitoring_specs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;BSONCXX_TESTING;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\include;D:\mongo-c-driver\include\libmongoc-1.0;D:\mongo-c-driver\include\libbson-1.0;D:\ZJCTestProjects\ThirdParty\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\mongocxx-mocked.lib;D:\mongo-c-driver\lib\mongoc-1.0.lib;D:\mongo-c-driver\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;Dnsapi.lib;..\..\bsoncxx\RelWithDebInfo\bsoncxx-testing.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/RelWithDebInfo/test_command_monitoring_specs.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/RelWithDebInfo/test_command_monitoring_specs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test_util\client_helpers.cpp" />
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\third_party\catch\main.cpp" />
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\spec\command_monitoring.cpp" />
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\spec\operation.cpp" />
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\spec\monitoring.cpp" />
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\spec\util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\ZERO_CHECK.vcxproj">
+      <Project>{E35E04AF-7B57-36AE-9006-14AAB8230B23}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\bsoncxx\bsoncxx_testing.vcxproj">
+      <Project>{3E1A76B0-9FD5-3737-AFB8-C1EB21CE860B}</Project>
+      <Name>bsoncxx_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\mongocxx_mocked.vcxproj">
+      <Project>{F41D752C-A99B-3D7A-96C0-CECD7788CEDE}</Project>
+      <Name>mongocxx_mocked</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49072178-B1BF-36CE-9185-849C4C9EF1D4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\CMakeFiles\67f93efc8deebe942bb9e7ee24030d67\examples.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\aggregate.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\bulk_write.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\change_streams.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\client_session.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\connect.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\create.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\document_validation.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\exception.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\get_values_from_documents.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\gridfs.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\index.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\inserted_id.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\instance_management.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\aggregation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\runcommand_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\index_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\documentation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\usage_overview.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\query_projection.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\query.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\remove.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\tailable_cursor.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\update.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\view_or_value_variant.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\with_transaction.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Debug\pool.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\builder_core.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\builder_basic.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\builder_stream.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\builder_stream_customization.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\decimal128.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\getting_values.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Debug\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\aggregate.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\bulk_write.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\change_streams.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\client_session.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\connect.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\create.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\document_validation.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\exception.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\get_values_from_documents.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\gridfs.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\index.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\inserted_id.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\instance_management.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\aggregation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\runcommand_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\index_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\documentation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\usage_overview.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\query_projection.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\query.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\remove.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\tailable_cursor.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\update.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\view_or_value_variant.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\with_transaction.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\Release\pool.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\builder_core.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\builder_basic.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\builder_stream.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\builder_stream_customization.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\decimal128.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\getting_values.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\Release\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\aggregate.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\bulk_write.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\change_streams.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\client_session.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\connect.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\create.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\document_validation.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\exception.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\get_values_from_documents.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\gridfs.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\index.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\inserted_id.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\instance_management.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\aggregation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\runcommand_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\index_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\documentation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\usage_overview.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\query_projection.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\query.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\remove.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\tailable_cursor.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\update.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\view_or_value_variant.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\with_transaction.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\MinSizeRel\pool.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\builder_core.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\builder_basic.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\builder_stream.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\builder_stream_customization.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\decimal128.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\getting_values.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\MinSizeRel\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\aggregate.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\bulk_write.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\change_streams.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\client_session.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\connect.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\create.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\document_validation.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\exception.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\get_values_from_documents.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\gridfs.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\index.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\inserted_id.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\instance_management.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\aggregation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\runcommand_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\index_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\documentation_examples.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\usage_overview.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\query_projection.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\query.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\remove.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\tailable_cursor.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\update.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\view_or_value_variant.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\with_transaction.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\RelWithDebInfo\pool.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\builder_core.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\builder_basic.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\builder_stream.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\builder_stream_customization.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\decimal128.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\getting_values.exe;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\RelWithDebInfo\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\CMakeFiles\examples" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\ZERO_CHECK.vcxproj">
+      <Project>{E35E04AF-7B57-36AE-9006-14AAB8230B23}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\aggregate.vcxproj">
+      <Project>{4779E8E2-D317-3832-ACD3-33D97163BB9F}</Project>
+      <Name>aggregate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\aggregation_examples.vcxproj">
+      <Project>{B38C2566-125E-3236-B050-D96580704346}</Project>
+      <Name>aggregation_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\builder_basic.vcxproj">
+      <Project>{A395D8AF-1762-3393-93C4-57320790D164}</Project>
+      <Name>builder_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\builder_core.vcxproj">
+      <Project>{AC23426E-3B9C-3D00-BB91-DED3FC9D24AD}</Project>
+      <Name>builder_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\builder_stream.vcxproj">
+      <Project>{DF56B3E8-F0E8-3D68-9675-4959DF59AD63}</Project>
+      <Name>builder_stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\builder_stream_customization.vcxproj">
+      <Project>{E9729058-2144-3621-8B90-788ECE78C40A}</Project>
+      <Name>builder_stream_customization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\bulk_write.vcxproj">
+      <Project>{E8A0FD5D-9149-3F23-A644-9C4E53E7D2BB}</Project>
+      <Name>bulk_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\change_streams.vcxproj">
+      <Project>{875D5952-4660-3D14-A9C2-3BAA9D4044D7}</Project>
+      <Name>change_streams</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\client_session.vcxproj">
+      <Project>{24493539-6883-3102-8DB5-6CEDDD755F52}</Project>
+      <Name>client_session</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\connect.vcxproj">
+      <Project>{8FEE8D97-52ED-379B-BCB9-3B03A3C3BF74}</Project>
+      <Name>connect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\create.vcxproj">
+      <Project>{E5CE1347-7C61-3B9F-B3EE-64DC84A5E874}</Project>
+      <Name>create</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\decimal128.vcxproj">
+      <Project>{88519138-4CF0-3272-BBC9-79E90F52EDA2}</Project>
+      <Name>decimal128</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\document_validation.vcxproj">
+      <Project>{EEDB651B-882A-3434-8235-C75174EDC59D}</Project>
+      <Name>document_validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\documentation_examples.vcxproj">
+      <Project>{FCC15B54-3782-3E8B-A373-A9010A236C0A}</Project>
+      <Name>documentation_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\exception.vcxproj">
+      <Project>{02238A00-A32C-3724-8E6F-EB6685EA564D}</Project>
+      <Name>exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\get_values_from_documents.vcxproj">
+      <Project>{BA9893ED-490A-3948-8AAD-95A71948C4D2}</Project>
+      <Name>get_values_from_documents</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\getting_values.vcxproj">
+      <Project>{41B03EFF-D332-34D6-8DD3-0EC602C40F6C}</Project>
+      <Name>getting_values</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\gridfs.vcxproj">
+      <Project>{E9B48321-1880-3FA0-B6D8-37E88A43A7EC}</Project>
+      <Name>gridfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\index.vcxproj">
+      <Project>{016C93F5-EA40-3B1C-8D74-819C0280702E}</Project>
+      <Name>index</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\index_examples.vcxproj">
+      <Project>{3ABB1561-3304-3B58-BF40-F88D4BF37DED}</Project>
+      <Name>index_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\inserted_id.vcxproj">
+      <Project>{1EE9B013-AEFC-3857-AAEB-1C72D3CB2222}</Project>
+      <Name>inserted_id</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\instance_management.vcxproj">
+      <Project>{09F0476C-C6B2-3457-A97C-772D62E81042}</Project>
+      <Name>instance_management</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\pool.vcxproj">
+      <Project>{D6EF8E44-C6BF-3425-91C1-04FF14F04BF0}</Project>
+      <Name>pool</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\query.vcxproj">
+      <Project>{0FC338F6-A2F3-3B3F-991C-D6F493AF1D18}</Project>
+      <Name>query</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\query_projection.vcxproj">
+      <Project>{146D25F2-E9D8-3C2F-B392-6C5D158C32C4}</Project>
+      <Name>query_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\remove.vcxproj">
+      <Project>{27A68C51-D9D4-3EA9-A94C-348BD4ECD8F3}</Project>
+      <Name>remove</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\runcommand_examples.vcxproj">
+      <Project>{1649AC2E-23B4-336E-B7F8-D5ADB3327207}</Project>
+      <Name>runcommand_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\tailable_cursor.vcxproj">
+      <Project>{A84F92DD-B0DA-3786-B660-5E75B42E07EB}</Project>
+      <Name>tailable_cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\update.vcxproj">
+      <Project>{E918CC49-067F-3B3F-ACA3-323AA836C9E4}</Project>
+      <Name>update</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\usage_overview.vcxproj">
+      <Project>{8BAF6D64-D74F-3B48-B346-77C74FA2B78A}</Project>
+      <Name>usage_overview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\bsoncxx\view_and_value.vcxproj">
+      <Project>{E1E85FFD-DEDC-3403-95CF-0372D6341F82}</Project>
+      <Name>view_and_value</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\view_or_value_variant.vcxproj">
+      <Project>{C019DA0B-0193-3857-9807-113206B59613}</Project>
+      <Name>view_or_value_variant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\examples\mongocxx\with_transaction.vcxproj">
+      <Project>{0665FEFC-6AE3-3A9D-B692-DB61811120A3}</Project>
+      <Name>with_transaction</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/exportheader.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/CMakeFiles/3.17.1/CMakeCCompiler.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/cmake/MongocxxUtil.cmake
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/CMakeLists.txt
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/cmake/libmongocxx-config.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/cmake/libmongocxx-static-config.cmake.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/cmake/mongocxx-config.cmake.in
+D:/mongo-c-driver/lib/cmake/libbson-1.0/libbson-1.0-config-version.cmake
+D:/mongo-c-driver/lib/cmake/libbson-1.0/libbson-1.0-config.cmake
+D:/mongo-c-driver/lib/cmake/libmongoc-1.0/libmongoc-1.0-config-version.cmake
+D:/mongo-c-driver/lib/cmake/libmongoc-1.0/libmongoc-1.0-config.cmake

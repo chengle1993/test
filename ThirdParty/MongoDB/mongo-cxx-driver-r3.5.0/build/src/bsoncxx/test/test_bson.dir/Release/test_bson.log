@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/test/CMakeLists.txt
+  main.cpp
+  bson_b_date.cpp
+  bson_builder.cpp
+  bson_get_values.cpp
+  bson_types.cpp
+  bson_util_itoa.cpp
+  bson_validate.cpp
+  json.cpp
+  view_or_value.cpp
+  正在生成代码...
+  test_bson.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\bsoncxx\test\Release\test_bson.exe

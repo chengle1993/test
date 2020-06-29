@@ -1,0 +1,100 @@
+﻿  Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/CMakeLists.txt
+  bulk_write.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  client.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  client_session.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ZJCTestProjects\ThirdParty\boost_1_73_0\boost/smart_ptr/make_unique.hpp(33,1): warning C4316: “mongocxx::v_noabi::client_session::impl”: 在堆上分配的对象可能不是对齐 128
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\client_session.cpp(29): message : 查看对正在编译的函数 模板 实例化“std::unique_ptr<mongocxx::v_noabi::client_session::impl,std::default_delete<mongocxx::v_noabi::client_session::impl>> boost::make_unique<mongocxx::v_noabi::client_session::impl,const mongocxx::v_noabi::client*&,const mongocxx::v_noabi::options::client_session&>(const mongocxx::v_noabi::client *&,const mongocxx::v_noabi::options::client_session &)”的引用
+  change_stream.cpp
+  collection.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  cursor.cpp
+  database.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  command_failed_event.cpp
+  command_started_event.cpp
+  command_succeeded_event.cpp
+  heartbeat_failed_event.cpp
+  heartbeat_started_event.cpp
+  heartbeat_succeeded_event.cpp
+  server_changed_event.cpp
+  server_closed_event.cpp
+  server_description.cpp
+  server_opening_event.cpp
+  topology_changed_event.cpp
+  topology_closed_event.cpp
+  topology_description.cpp
+  topology_opening_event.cpp
+  error_code.cpp
+  operation_exception.cpp
+  server_error_code.cpp
+  正在生成代码...
+  正在编译...
+  downloader.cpp
+  uploader.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  hint.cpp
+  index_model.cpp
+  instance.cpp
+  logger.cpp
+  delete_many.cpp
+  delete_one.cpp
+  update_many.cpp
+  update_one.cpp
+  write.cpp
+  aggregate.cpp
+  apm.cpp
+  count.cpp
+  estimated_document_count.cpp
+  create_collection.cpp
+  distinct.cpp
+  find_one_and_delete.cpp
+  find_one_and_replace.cpp
+  find_one_and_update.cpp
+  正在生成代码...
+  正在编译...
+  find.cpp
+  index.cpp
+  insert.cpp
+  replace.cpp
+  tls.cpp
+  transaction.cpp
+  pipeline.cpp
+  conversions.cpp
+  libbson.cpp
+  libmongoc.cpp
+  read_concern.cpp
+  read_preference.cpp
+  insert_many.cpp
+  uri.cpp
+  validation_criteria.cpp
+  write_concern.cpp
+  正在生成代码...
+  bucket.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  index_view.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  insert_one.cpp
+  replace_one.cpp
+  bulk_write.cpp
+  change_stream.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  client.cpp
+  client_session.cpp
+  delete.cpp
+  bucket.cpp
+  upload.cpp
+  index_view.cpp
+  pool.cpp
+  update.cpp
+  pool.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  bulk_write.cpp
+  delete.cpp
+  upload.cpp
+  insert_one.cpp
+  replace_one.cpp
+  update.cpp
+  mongocxx_static.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\Release\mongocxx-static.lib

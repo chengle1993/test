@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/config/CMakeLists.txt
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/config/config.hpp.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/config/libbsoncxx-static.pc.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/config/libbsoncxx.pc.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/config/private/config.hh.in
+D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/config/version.hpp.in

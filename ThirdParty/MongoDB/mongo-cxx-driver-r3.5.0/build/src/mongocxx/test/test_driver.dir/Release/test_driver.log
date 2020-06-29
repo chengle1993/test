@@ -1,0 +1,76 @@
+﻿  Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/test/CMakeLists.txt
+  client_helpers.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+  change_streams.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  client.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  collection.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  collection_mocked.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  conversions.cpp
+  database.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  downloader.cpp
+  uploader.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  hint.cpp
+  index_view.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  delete_many.cpp
+  delete_one.cpp
+  update_many.cpp
+  update_one.cpp
+  aggregate.cpp
+  count.cpp
+  create_collection.cpp
+  distinct.cpp
+  正在生成代码...
+  正在编译...
+  find.cpp
+  find_one_and_delete.cpp
+  find_one_and_replace.cpp
+  find_one_and_update.cpp
+  index.cpp
+  insert.cpp
+  replace.cpp
+  scoped_bson_t.cpp
+  read_concern.cpp
+  read_preference.cpp
+  sdam-monitoring.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  transactions.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  uri.cpp
+  validation_criteria.cpp
+  正在生成代码...
+  bulk_write.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  client_session.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  bucket.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\gridfs\bucket.cpp(935,36): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx\test\gridfs\bucket.cpp(992,36): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  insert_one.cpp
+  replace_one.cpp
+  bulk_write.cpp
+  client_session.cpp
+  delete.cpp
+  bucket.cpp
+  upload.cpp
+  pool.cpp
+  update.cpp
+  pool.cpp
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\mongocxx/options/change_stream.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  write_concern.cpp
+  bulk_write.cpp
+  delete.cpp
+  upload.cpp
+  insert_one.cpp
+  replace_one.cpp
+  update.cpp
+  write_concern.cpp
+  test_driver.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\Release\test_driver.exe

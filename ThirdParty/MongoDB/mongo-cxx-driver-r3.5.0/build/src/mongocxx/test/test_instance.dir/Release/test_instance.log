@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/mongocxx/test/CMakeLists.txt
+  main.cpp
+  instance.cpp
+  正在生成代码...
+  test_instance.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\mongocxx\test\Release\test_instance.exe

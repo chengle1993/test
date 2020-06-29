@@ -1,0 +1,10 @@
+^D:\ZJCTESTPROJECTS\THIRDPARTY\MONGODB\MONGO-CXX-DRIVER-R3.5.0\SRC\BSONCXX\TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/bsoncxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

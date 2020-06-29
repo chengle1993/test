@@ -1,0 +1,291 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f6a9e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6a9e.dir\Debug\\" /Fd"cmTC_f6a9e.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_f6a9e.vcxproj]
+
+
+
+Determining if the uuid_generate exist failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_55aee.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55aee.dir\Debug\\" /Fd"cmTC_55aee.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “uuid/uuid.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_55aee.vcxproj]
+
+
+File D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <uuid/uuid.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uuid_generate
+  return ((int*)(&uuid_generate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function uuid_generate exists in the uuid failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_65618.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=uuid_generate /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65618.dir\Debug\\" /Fd"cmTC_65618.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _uuid_generate，该符号在函数 _main 中被引用 [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_65618.vcxproj]
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_65618.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_65618.vcxproj]
+
+
+
+Determining if the uuid_create exist failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_482fa.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_482fa.dir\Debug\\" /Fd"cmTC_482fa.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “uuid.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_482fa.vcxproj]
+
+
+File D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <uuid.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uuid_create
+  return ((int*)(&uuid_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test QPID_SIZE_T_DISTINCT failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bafcf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.cxx
+  cl /c /I"D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D QPID_SIZE_T_DISTINCT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bafcf.dir\Debug\\" /Fd"cmTC_bafcf.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\src.cxx"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\src.cxx(11,21): error C2084: 函数“int foo(uint32_t)”已有主体 [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_bafcf.vcxproj]
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\src.cxx(9): message : 参见“foo”的前一个定义 [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_bafcf.vcxproj]
+
+
+Source file was:
+
+#include "qpid/sys/IntegerTypes.h"
+// Define functions that will fail to compile if size_t is the same as
+// one of the int types defined in IntegerTypes.h
+int foo(int16_t)    { return 1; }
+int foo(int32_t)    { return 2; }
+int foo(int64_t)    { return 3; }
+int foo(uint16_t)   { return 4; }
+int foo(uint32_t)   { return 5; }
+int foo(uint64_t)   { return 6; }
+int foo(size_t)     { return 7; }
+int main (int, char *[]) {
+  return 0;
+}
+
+Determining if the function _init exists in the xerces-c failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_582f9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_init /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_582f9.dir\Debug\\" /Fd"cmTC_582f9.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“xerces-c.lib” [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_582f9.vcxproj]
+
+
+
+Determining if the include file xercesc/framework/MemBufInputSource.hpp exists failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7b0bc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckIncludeFile.cxx
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7b0bc.dir\Debug\\" /Fd"cmTC_7b0bc.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1,10): fatal error C1083: 无法打开包括文件: “xercesc/framework/MemBufInputSource.hpp”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_7b0bc.vcxproj]
+
+
+
+Determining if the include file xqilla/xqilla-simple.hpp exists failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a08fe.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckIncludeFile.cxx
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a08fe.dir\Debug\\" /Fd"cmTC_a08fe.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1,10): fatal error C1083: 无法打开包括文件: “xqilla/xqilla-simple.hpp”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_a08fe.vcxproj]
+
+
+
+Determining if the include file xqilla/ast/XQEffectiveBooleanValue.hpp exists failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4f7c3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4f7c3.dir\Debug\\" /Fd"cmTC_4f7c3.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  CheckIncludeFile.cxx
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1,10): fatal error C1083: 无法打开包括文件: “xqilla/ast/XQEffectiveBooleanValue.hpp”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_4f7c3.vcxproj]
+
+
+
+Determining if the function ibv_create_qp exists in the ibverbs failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d1ab9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ibv_create_qp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1ab9.dir\Debug\\" /Fd"cmTC_d1ab9.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“ibverbs.lib” [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_d1ab9.vcxproj]
+
+
+
+Determining if the function rdma_create_id exists in the rdmacm failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5ef90.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rdma_create_id /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef90.dir\Debug\\" /Fd"cmTC_5ef90.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“rdmacm.lib” [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_5ef90.vcxproj]
+
+
+
+Determining if files infiniband/verbs.h exist failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0baf2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  HAVE_IBVERBS_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0baf2.dir\Debug\\" /Fd"cmTC_0baf2.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CheckIncludeFiles\HAVE_IBVERBS_H.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CheckIncludeFiles\HAVE_IBVERBS_H.c(2,10): fatal error C1083: 无法打开包括文件: “infiniband/verbs.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_0baf2.vcxproj]
+
+
+Source:
+/* */
+#include <infiniband/verbs.h>
+
+
+int main(void){return 0;}
+
+Determining if files rdma/rdma_cma.h exist failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_aff0e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_RDMACM_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aff0e.dir\Debug\\" /Fd"cmTC_aff0e.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CheckIncludeFiles\HAVE_RDMACM_H.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CheckIncludeFiles\HAVE_RDMACM_H.c(2,10): fatal error C1083: 无法打开包括文件: “rdma/rdma_cma.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_aff0e.vcxproj]
+
+
+Source:
+/* */
+#include <rdma/rdma_cma.h>
+
+
+int main(void){return 0;}
+
+Determining if the LOG_AUTHPRIV exist failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_92978.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92978.dir\Debug\\" /Fd"cmTC_92978.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/syslog.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_92978.vcxproj]
+
+
+File D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LOG_AUTHPRIV
+  return ((int*)(&LOG_AUTHPRIV))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the LOG_FTP exist failed with the following output:
+Change Dir: D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3b5df.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.1+4616136f8
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.25.28614 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b5df.dir\Debug\\" /Fd"cmTC_3b5df.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/syslog.h”: No such file or directory [D:\ZJCTestProjects\ThirdParty\qpid\qpid-cpp-1.39.0\build\CMakeFiles\CMakeTmp\cmTC_3b5df.vcxproj]
+
+
+File D:/ZJCTestProjects/ThirdParty/qpid/qpid-cpp-1.39.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LOG_FTP
+  return ((int*)(&LOG_FTP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

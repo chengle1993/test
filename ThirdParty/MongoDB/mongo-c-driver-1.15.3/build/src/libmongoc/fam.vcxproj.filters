@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\examples\find_and_modify_with_opts\fam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56AC7DE5-DFD1-303C-8569-B37237E8453E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

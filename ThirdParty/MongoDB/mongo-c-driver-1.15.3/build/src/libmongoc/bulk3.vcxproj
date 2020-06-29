@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D4579C0-2A2C-3792-A128-E0294BDF7AC1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>bulk3</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bulk3.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bulk3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bulk3.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bulk3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bulk3.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bulk3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bulk3.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bulk3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\mongoc-1.0.lib;shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;..\libbson\Debug\bson-1.0.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/Debug/bulk3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/Debug/bulk3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\mongoc-1.0.lib;shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;..\libbson\Release\bson-1.0.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/Release/bulk3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/Release/bulk3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\mongoc-1.0.lib;shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;..\libbson\MinSizeRel\bson-1.0.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/MinSizeRel/bulk3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/MinSizeRel/bulk3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_GNU_SOURCE;_BSD_SOURCE;_DEFAULT_SOURCE;MONGOC_COMPILATION;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\..\..\src\common;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\src;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\mongoc-1.0.lib;shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Shlwapi.lib;Bcrypt.lib;Dnsapi.lib;..\libbson\RelWithDebInfo\bson-1.0.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/RelWithDebInfo/bulk3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/RelWithDebInfo/bulk3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindICU.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_STDARG_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckTypeSize\HAVE_SOCKLEN.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\CheckSchedGetCPU.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindResSearch.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindSnappy.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\MongoCPackage.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-static-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-config.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-version.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11\zconf.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindICU.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_STDARG_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckTypeSize\HAVE_SOCKLEN.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\CheckSchedGetCPU.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindResSearch.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindSnappy.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\MongoCPackage.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-static-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-config.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-version.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11\zconf.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindICU.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_STDARG_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckTypeSize\HAVE_SOCKLEN.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\CheckSchedGetCPU.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindResSearch.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindSnappy.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\MongoCPackage.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-static-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-config.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-version.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11\zconf.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3 -BD:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build --check-stamp-file D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-c-driver-1.15.3/build/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindICU.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_STDARG_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\CMakeFiles\CheckTypeSize\HAVE_SOCKLEN.c;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\CheckSchedGetCPU.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindResSearch.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\FindSnappy.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\cmake\MongoCPackage.cmake;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config-version.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\build\cmake\libmongoc-static-1.0-config.cmake.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\libmongoc-static-1.0.pc.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-config.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\src\mongoc\mongoc-version.h.in;D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\zlib-1.2.11\zconf.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\src\libmongoc\examples\bulk\bulk3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\ZERO_CHECK.vcxproj">
+      <Project>{A8CD717D-B332-394C-85CB-2058E9ACDF99}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libbson\bson_shared.vcxproj">
+      <Project>{61E407CE-36C7-3601-87B2-AF0AAEE13F86}</Project>
+      <Name>bson_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-c-driver-1.15.3\build\src\libmongoc\mongoc_shared.vcxproj">
+      <Project>{2E82FBE9-E5EE-34EF-94F1-9E6463AA0E59}</Project>
+      <Name>mongoc_shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

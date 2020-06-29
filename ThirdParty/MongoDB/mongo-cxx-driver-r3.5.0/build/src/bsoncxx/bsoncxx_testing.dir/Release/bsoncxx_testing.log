@@ -1,0 +1,22 @@
+﻿  Building Custom Rule D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/src/bsoncxx/CMakeLists.txt
+  element.cpp
+  value.cpp
+  view.cpp
+  core.cpp
+D:\ZJCTestProjects\ThirdParty\boost_1_73_0\boost/smart_ptr/make_unique.hpp(33,1): warning C4316: “bsoncxx::v_noabi::builder::core::impl”: 在堆上分配的对象可能不是对齐 128
+D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\src\bsoncxx\builder\core.cpp(254): message : 查看对正在编译的函数 模板 实例化“std::unique_ptr<bsoncxx::v_noabi::builder::core::impl,std::default_delete<bsoncxx::v_noabi::builder::core::impl>> boost::make_unique<bsoncxx::v_noabi::builder::core::impl,bool&>(bool &)”的引用
+  decimal128.cpp
+  error_code.cpp
+  json.cpp
+  oid.cpp
+  itoa.cpp
+  view_or_value.cpp
+  types.cpp
+  validate.cpp
+  正在生成代码...
+  element.cpp
+  value.cpp
+  view.cpp
+  value.cpp
+    正在创建库 D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/bsoncxx/Release/bsoncxx-testing.lib 和对象 D:/ZJCTestProjects/ThirdParty/MongoDB/mongo-cxx-driver-r3.5.0/build/src/bsoncxx/Release/bsoncxx-testing.exp
+  bsoncxx_testing.vcxproj -> D:\ZJCTestProjects\ThirdParty\MongoDB\mongo-cxx-driver-r3.5.0\build\src\bsoncxx\Release\bsoncxx-testing.dll
